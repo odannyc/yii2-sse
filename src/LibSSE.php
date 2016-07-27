@@ -5,6 +5,7 @@
  */
 namespace odannyc\Yii2SSE;
 
+use Sse\Event;
 use Sse\SSE;
 use yii\base\Component;
 
@@ -19,7 +20,7 @@ class LibSSE extends Component
      * @param $event
      * @param $handler
      */
-    public function addEventListener($event, $handler)
+    public function addEventListener($event, Event $handler)
     {
         $this->getInstance()->addEventListener($event, $handler);
     }
