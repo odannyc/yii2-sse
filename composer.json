@@ -10,5 +10,10 @@
     "require": {
         "tonyhhyip/sse": "^2.1",
         "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "odannyc\\Yii2SSE\\": "src/"
+        }
     }
 }
