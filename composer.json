@@ -8,6 +8,7 @@
         }
     ],
     "require": {
-        "tonyhhyip/sse": "^2.1"
+        "tonyhhyip/sse": "^2.1",
+        "yiisoft/yii2": "^2.0"
     }
 }
